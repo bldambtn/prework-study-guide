@@ -11,6 +11,7 @@
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -19,11 +20,73 @@
 
         <ul>
 
-          <li>HTML stands for HyperText Markup Language</li>
+          <li>HTML stands for HyperText Markup Language.</li>
 
-          <li>The head element contains information about the webpage.</li>
+          <li>HTML gives content structure.</li>
 
-          <li>The body element represents the visible content shown to the user.</li>
+          <li>HTML elements are usually composed of an opening tag and a closing tag represented with angle brackets.</li>
+
+          <li>HTML attributes are always defined in the beginning element, never the closing element.</li>
+
+          <li>The "head" element contains the metadata for our web application. Metadata is data about our webpage that the browser uses to effectively serve our webpage to users. Metadata is typically not seen by users, but it contains important information about accessibility, search engines, and performance.</li>
+
+          <li>The "title" element defines the title for a webpage. This element is required and is extremely important for Search Engine Optimization (SEO).</li>
+
+          <li>The "style" element defines the CSS styles associated with a website.</li>
+
+          <li>The "base" element defines the base URL for a webpage.</li>
+
+          <li>The "link" element connects an external resource to the HTML document.</li>
+
+          <li>The "meta" element defines metadata such as the character set, description, keywords, author, and viewport.</li>
+
+          <li>The "script" element embeds client-side scripts in the HTML document.</li>
+          
+          <li>"!DOCTYPE" declaration tells the browser what document type it should expect when it is opened.</li>
+
+          <li>"!DOCTYPE" is not case-sensitive because it is a declaration. Declarations are not case-sensitive; HTML elements are case-sensitive.</li>
+
+          <li>The "charset" element sets our character encoding.</li>
+
+          <li>The "http-equiv" element sets an HTTP header for content.</li>
+
+          <li>The "viewport" element sets the default view for our webpage.</li>
+
+          <li>The "body" element represents the visible content shown to the user.</li>
+
+          <li>Semantic HTML elements, the name of the element describes its content and the role it plays on a webpage.</li>
+
+          <li>The non-semantic element "div" creates a division in the page.</li>
+
+          <li>The non-semantic element "span" creates an inline division</li>
+
+          <li>When working with visible HTML elements, the content is contained between an opening tag and a closing tag.</li>
+
+          <li>The words “element” and “tag” are commonly used interchangeably in the web development world, but it is important to know the difference. An element refers to the entire element from opening tag to closing tag, whereas a tag refers only to what appears inside the angle brackets.</li>
+
+          <li>Elements that are nested inside other elements are called child elements.</li>
+
+          <li>The element that holds all the children is known as the parent element.</li>
+
+          <li>The element "h" plus a number, suchs as "h1", represents the level of heading a given text block represents.</li>
+
+          <li>the element "p" represents a pragraph or block of text.</li>
+
+          <li>The elements "ul", "ol", and "li" represent unordered lists, ordered lists, and list items.</li>
+
+          <li>The "img" element contains information about images that are displayed on the webpage.</li>
+
+          <li>The "br" element creates a line of empty space, or a line break, between two blocks of content.</li>
+
+          <li>The anchor element, "a", creates links to the same webpage or other webpages.</li>
+
+          <li>The "href" attribute points to the URL for the link.</li>
+
+          <li>The "src" attribute defines the location, or source, of the image file.</li>
+
+          <li>The "alt" attribute contains a text string that describes the appearance and functionality of the image.</li>
+
+          <li>The alt text is important for screen readers and other assistive technologies. Alt text can also improve search engine rankings for your website.</li>
 
         </ul>
 
@@ -34,10 +97,64 @@
         <h2>CSS</h2>
      
         <ul>
+
+          <li>CSS stands for Cascading Style Sheet.</li>
+
+          <li>CSS defines the colors, aesthetics, visual layout, and organization.</li>
+
+          <li>While it's possible to use define style inline or via internal style sheet, it's easier to update and manage an external style sheet.</li>
+
+            <ul>
+
+              <li>Inline CSS: used whenn a developer wants to style a specific element directly.</li>
+
+              <li>Internal Style Sheet: applied to the HTML's 'head' to define rules for a specific page.</li>
+
+              <li>External Style Sheet: the most common way to manage a webpage's style and linked in the HTML's 'head'.</li>
+
+            </ul>
+
+          <li>Declarations contain two important components: the CSS property we want to apply and the value of the property.</li>
          
           <li>A margin indicates how much space we want around the outside of an element.</li>
          
           <li>A padding indicates how much space we want around the content inside an element.</li>
+
+          <li>To link a CSS File to an HTML File: </li>
+
+            <ul>
+
+                <li>Make sure the CSS file is saved and you know the file path.</li>
+  
+                <li>Add the following code after the final "meta" element and before the "title" element:</li>
+
+                    <ul>
+
+                      <li> link rel="stylesheet" href:"/file_path"</li>
+                
+                      <li>In the preceding statement, a "link" element creates the connection to the external file</li>
+                
+                      <li>The "rel" attribute specifies the relationship between the current document and the linked document resource.</li>
+                
+                      <li>The "href" attribute specifies the location (URL) of the external resource. The href attribute is using a relative path. This means the location is derived from the current location.</li>
+
+                    </ul>
+
+                <li>Save the file.</li>
+
+                <l1>You can use a class selector, such as ".card", to style multiple HTML elements.</l1>
+
+                    <ul>
+                
+                      <li>The period preceding "card" designates this as a class selector. Any HTML element assigned to the class, "card", will gain these property assignments from the CSS.</li>
+
+                    </ul>
+
+                <li>Assigning colors in CSS can be done in many ways, including by semantic references such as "gray" or "blue". We can also refer to a color by its hexadecimal code, or hex #.</li>
+          
+              </ul>
+
+          <li>Additional notes can be found <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">here</a>.</li>
        
         </ul>
    
@@ -48,10 +165,139 @@
         <h2>Git</h2>
     
         <ul>
+
+          <li>Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git commant line experience.</li>
+
+          <li>Git Bash Comands:</li>
+
+          <ul>
        
-          <li>git status: checks what branch we are currently on</li>
+          <li>"cd directory_name": navigates to the specified directory.</li>
+
+          <li>"code ."": opens the current directory in VS code.</li>
+
+          <li>"pwd": tells you what directory you're currently in.</li>
+
+          <li>"ls": lists items in current directory.</li>
+
+          <li>"cd ..": returns to the previous directory.</li>
+
+          <li>"git add -A": commits all files to the working branch.</li>
+
+          <li>"git checkout branch_name: return to a specific branch</li>
     
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>"git checkout -b branch_name": creates a new branch and switches to it.</li>
+
+          <li>"git commit -m "insert_your_message":</li>
+
+          <ul>
+
+            <li>We use the "-m" flag to associate a message with our commit. Commit messages should be short descriptive messages of the changes implemented. Once completed, our Git repository is now up to date with our working directory!</li>
+
+          </ul>
+
+          <li>"git pull origin branch": confirm the current branch is up to date.</li>
+
+          <li>"git push origina feature/branch_name": push up changes to save.</li>
+
+          <li>"git status": checks what branch we are currently on.</li>
+
+          <li>"touch name.file_type": used to create a file type directly from the terminal.</li>
+
+          <ul>
+            
+            <li>examples include:</li>
+
+              <ul>
+
+                <li>style.css</li>
+
+                <li>script.js</li>
+
+                <li>index.html</li>
+
+              </ul>
+
+          </ul>
+
+          <li>Additional commands can be found <a href="https://education.github.com/git-cheat-sheet-education.pdf">here</a>.</li>
+
+          </ul>
+
+          <li>How to create a feature branch via Git Bash:</li>
+
+              <ul>
+
+                <li>In the command line, navigate to the desired directory.</li>
+
+                <li>Type "git status" to check which branch you're currently in. If you're not on the branch you wish, switch to the branch by entering the following Git command: "git checout branch_name".</li>
+                
+                <li>In the command line, pull down the latest version of the branch by entering "git pull origin branch_name".</li>
+                
+                <li>From the branch, use the Git command "git checkout -b feature/new_branch_name" to create a new branch.</li>
+                
+                <li>You should see the following message in your terminal: <br>
+                  "Switched to a new branch 'feature/new_branch_name'".</li>
+                
+                <li>Confirm you've successfully created and navigated to the new branch by typing "git status" in the terminal. You should see the following message:</li>
+
+                  <ul>
+                    
+                    <li>On branch feature/add-html <br>
+                    nothing to commit, working tree clean</li>
+                  
+                  </ul>
+                
+              </ul>
+
+            <li>How to save your work to GitHub:</li>
+
+              <ul>
+
+                <li>Confirm you are on the correct branch.</li>
+
+                <li>Enter "git add -A" in your terminal to commit all files in the working branch.</li>
+
+                <li>To commit your changes to your GitHub repository, use the command "git commit -m "your detailed specific message".</li>
+
+                  <ul>
+
+                    <li>Expected terminal response: <br>
+                      [feature/add-html 46a625e] added code to HTML file <br>
+                      1 file changed, 47 insertions(+) <br>
+                      create mode 100644 index.html</li>
+
+                  </ul>
+
+                <li>Confirm the current branch is up to date before opening a pull request. Enter the command: "git pull origin branch_name".</li>
+
+                <ul>
+
+                  <li>If the branch is up to date, you'll see the message: "Already up to date."</li>
+
+                </ul>
+
+                <li>Push the changes to GitHub by using the command: "git push origin feature/branch_name".</li>
+
+              </ul>
+
+              <li>How to leave the branch in the terminal after a pull request. </li>
+
+              <ul>
+
+                <li>Enter the command: "git checkout branch_name".</li>
+
+                  <Ul>
+
+                    <li>Usually, you want to return to the main branch, so the command would be: <br>
+                      "git checkout main". <br>
+                      The same applies to the next step.</li>
+
+                  </Ul>
+
+                <li>Enter the command: "git pull origin branch_name".</li>
+
+              </ul>
      
         </ul>
    
@@ -63,8 +309,40 @@
      
         <ul>
        
-          <li>Enter your JavaScript notes here</li>
+          <li>JavaScript handles logic and allows users to interact with a website.</li>
+
+          <li>A variable is a named container that allows us to store data in our code.</li>
+
+          <li>There are different ways to create a variable. We can use "var" but "const" is more commonly used. Another keyword could be "let".</li>
+          
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+
+          <li>Note that whereas a CSS file is linked within the "head" element, the JS file is linked within the "body" element.</li>
+
+          <li>You can view console.log output via Chrome DevTools (F12 on your keyboard).</li>
+
+          <li>Conditional statements can be made using an IF statement.</li>
+
+          <li>Conditional statements can be made using a FOR LOOP.</li>
+
+          <li>When the computer encounters an if statement in a JavaScript file, it will check to see if the condition that we provide is truthy. If it is, then it will do whatever action we ask it to do in between the curly brackets. If the condition isn’t true or has a value that isn’t truthy, then the computer will ignore whatever is in between the curly brackets and move on.</li>
      
+          <li>In JS, an <b>array</b> is a single variable that is used to hold a group of data.</li>
+
+          <li>Arrays are useful tools for storing multiple items with different data types in a single variable, but not all arrays must have multiple data types. The array that we will add to our project only contains strings.</li>
+          
+          <li>A <b>function</b> is simply a set of instructions that tells the computer how to perform a certain task.</li>
+
+          <li>A function's name is followed by parentheses (). Later on, we will define parameters that can be placed inside the parentheses. For now, just remember that it is important to include the parentheses whenever you write a function.</li>
+
+          <li>Read up on JavaScript Basics <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">here</a>.</li>
+
+          <li>Read up on JavaScript Data Types and Data Structures <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">here</a>.</li>
+
+          <li>Read up on JavaScript and Math <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math">here</a>.</li>
+
+          <li><b>DON'T DO MATH FOR FREE.</b></li>
+
         </ul>
    
       </section>
@@ -73,5 +351,8 @@
     <footer>
       <p>I can code!</p>
     </footer>
+
+    <script src="./assets/script.js"></script>
+
   </body>
 </html>
